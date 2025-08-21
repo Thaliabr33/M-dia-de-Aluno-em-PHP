@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+
+body {
+   margin: 0;
+   /*Zera a o corpo da pagina e tira todos os espaços em volta*/
+   font-family: "Open Sans";
+   /*Fonte das letras*/
+}
+
+h1 {
+   text-align: center;
+   /*Centraliza o texto*/
+   font-family: "Rammetto One";
+   background-color: #D9EAFD;
+   color: #222831;
+   margin: 0;
+   margin-bottom: 50px;
+   /*Espaçamentos */
+   box-shadow: 0 0 5px 5px #4C3BCF;
+   /*Sombra para caixa*/
+}
+
+fieldset {
+   border: 1px solid rgb(29, 45, 80);
+   width: 50%;
+   /*Largura da página*/
+   margin: auto;
+   /*Centraliza o campo*/
+   border-radius: 10px;
+   /*Borda arredondada*/
+   box-shadow: 5px 5px 5px #4C3BCF;
+   /*Sombra para o campo*/
+   background: #D9EAFD;
+   /*Cor de fundo do campo*/
+}
+
+label.alinha {
+   display: inline-block;
+   /* Faz o label ficar na mesma linha que o input */
+   width: 250px;
+   /* Largura fixa para alinhar os labels */
+   text-align: right;
+   /* Alinha o texto do label à direita */
+   margin-bottom: 10px;
+}
+
+input[type="number"] {
+   /*/Define o tipo de input como número*/
+   width: 50%;
+   /*Largura do campo de input*/
+}
+
+input[name="nome"] {
+   width: 250px;
+   /*Largura do campo de input para o nome*/
+}
+
+/* Personalizando a fonte dos inputs e do botão*/
+input,
+button {
+   font-family: "Open Sans";
+}
+
+button {
+   height: 50%;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+   /*Cursor de ponteiro ao passar o mouse*/
+   display: block;
+   /* Faz o botão ficar na mesma linha que o input */
+   margin: auto;
+   /*Centraliza o botão*/
+   margin-top: 20px;
+
+}
+
+p {
+   border: 1px solid rgb(29, 45, 80);
+   background: #D9EAFD;
+   text-align: center;
+
+}
+
+span {
+   font-weight: bold;
+   /*Deixa o texto em negrito*/
+   color: #4C3BCF;
+   /*Cor do texto*/
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="exerc1.css">
+</head> 
+
+<body> 
+ <h1> Fundamentos do PHP - ListaL1 - Exercício 1 </h1>
+
+ <form action="recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Rendimento do aluno </legend>
+
+   <label class="alinha"> Nome do aluno: </label>
+   <input type="text" name="aluno" placeholder="Nome do aluno" autofocus> <br>
+
+   <label class="alinha"> Nota 1: </label>
+   <input type="number" name="nota1" min="0" max="10" step="0.1"> <br>
+
+   <label class="alinha"> Peso 1: </label>
+   <input type="number" name="peso1" min="0" max="10"> <br>
+
+   <label class="alinha"> Nota 2: </label>
+   <input type="number" name="nota2" min="0" max="10" step="0.1"> <br>
+
+   <label class="alinha"> Peso 2: </label>
+   <input type="number" name="peso2" min="0" max="10"> <br>
+
+   <button> Processar nota do aluno </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 
